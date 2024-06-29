@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+
+/**box1 **/
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 110px;
+
+}
+
+.logo {
+    height: 50px;
+    width: 110px;
+    background-image: url("image/Amazon-Emblem.jpg");
+    background-size: cover;
+}
+
+.border {
+    border: 2px solid transparent;
+
+}
+
+.border:hover {
+    border: 1.5px solid whitesmoke;
+}
+
+/**box2**/
+.nav-address {
+    width: 60px;
+    height: 50px;
+}
+
+.addr-1 {
+    font-size: 12px;
+    float: right;
+    margin-top: 12px;
+}
+
+.addr-2 {
+    font-size: 15px;
+    float: right;
+
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(255, 127, 80, 0.673);
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.nav-search:hover {
+    border: 2px solid rgba(255, 166, 0, 0.743);
+}
+
+.nav-search-dropdown {
+    background-color: aliceblue;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+
+.search-field {
+    width: 524px;
+    font-size: 1rem;
+    border: none;
+
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 145, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.nav-country {
+    width: 73px;
+    height: 50px;
+    color: #d6d6d6;
+    display: flex;
+
+}
+
+.country-logo {
+    width: 22px;
+    height: 16px;
+    background-image: url("image/banner-2024787_640.webp");
+    background-size: cover;
+    align-self: center;
+
+}
+
+.country-name {
+    width: 18px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    align-self: center;
+    margin-left: 2px;
+    padding: 4px 0px 0px 0px;
+
+
+}
+
+.arrow {
+    width: 8px;
+    height: 4px;
+    margin: 3px 0px 0px 0px;
+    padding: 6px 0px 0px 2px;
+    color: #d6d6d679;
+
+}
+
+.nav-sign-in {
+    width: 131px;
+    height: 47px;
+
+}
+
+.nav-order {
+    width: 76px;
+    height: 50px;
+    font-size: 1rem;
+
+}
+
+.cart {
+
+
+    text-align: left;
+    align-self: end;
+    margin: 6px 0px 6px 0px;
+
+}
+
+.cart i {
+
+    font-size: 30px;
+    text-align: center;
+    margin: 6px 0px 6px 0px;
+
+}
+
+/**box3 **/
+.menubar {
+    height: 39px;
+    background-color: #232f3e;
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menubar-2 p {
+    display: inline;
+    margin-left: 8px;
+
+
+}
+
+.menubar-2 {
+    width: 70%;
+    font-size: 15px;
+    font-weight: 1.8rem;
+}
+
+/** box4**/
+.hero-section {
+    background-image: url("image/header\ image.jpg");
+    background-size: cover;
+    height: 326px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+
+.hero-mesg {
+    background-color: white;
+    color: black;
+    width: 93%;
+    height: 30px;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-mesg a {
+    color: #007185;
+
+}
+
+.hero-shop {
+
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e3e6e6;
+
+}
+
+.box {
+    width: 23.5%;
+    height: 422px;
+    /*border: 2px solid black;*/
+    margin-top: 20px;
+    padding: 20px 0px 15px 0px;
+    background-color: white;
+}
+
+.box-content {
+
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.box-image {
+    height: 335px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box-content p {
+    color: #007185;
+    margin-top: 13px;
+}
+
+.hero-element {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e3e6e6;
+
+}
+
+
+.element {
+    width: 23.5%;
+    height: 422px;
+    margin-top: 20px;
+    padding: 20px 0px 15px 0px;
+    background-color: white;
+}
+
+.box-content {
+
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.box-image {
+    height: 335px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box-content p {
+    color: #007185;
+    margin-top: 13px;
+}
+
+/**box6**/
+.first-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e3e6e6;
+}
+
+.main-section {
+    width: 1460px;
+    height: 285px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+.a-subsection {
+    width: 923px;
+    height: 35px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.heading-tittle {
+    width: 716px;
+    height: 31px;
+    float: left;
+    margin-left: 10px;
+}
+
+.linkoffer {
+    width: 199.35px;
+    height: 18px;
+    margin-top: 6px;
+    color: #007185;
+}
+
+.a-section-viewport {
+    margin: 10px;
+}
+
+.a-section-viewport image {
+
+
+    max-width: 270px;
+    max-height: 200px;
+    vertical-align: middle;
+
+}
+
+.view-image {
+    margin-inline: 7px;
+}
+
+/**boc7**/
+.third-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e3e6e6;
+}
+
+.c-section {
+    width: 1461px;
+    height: 305px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.c-view-image {
+
+
+    max-width: 1500px;
+    max-height: 100%;
+}
+
+/**box8**/
+
+.second-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e3e6e6;
+    padding-bottom: 22px;
+
+}
+
+
+.b-section {
+    width: 23.5%;
+    height: 422px;
+    margin-top: 20px;
+    padding: 20px 0px 15px 0px;
+    background-color: white;
+}
+
+.b-box-content {
+
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.box-image {
+    height: 335px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.b-box-content p {
+    color: #007185;
+    margin-top: 13px;
+}
+
+.last-section {
+    width: 1464px;
+    height: 90px;
+    text-align: center;
+    border-top: 0.5px solid #e1e1e1;
+    border-bottom: 0.5px solid #e1e1e1;
+    margin: 25px 0px 25px 0px;
+    line-height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+
+}
+
+.sign-in-button {
+    width: 230px;
+    height: 28px;
+    max-width: 230px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 230px;
+    display: block;
+    background-position: -10px -170px;
+    background-image: url("image/https://m.media-amazon.com/images/S/sash/vfqcwUkuArEiwD2.png");
+    box-sizing: border-box;
+    margin-left: 594px;
+
+}
+
+.sign-in-but {
+    cursor: pointer;
+    background-position: right -170px;
+    display: block;
+    height: 28px;
+    position: relative;
+    color: #000;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffe093;
+    box-sizing: border-box;
+}
+
+.sign-in-customer {
+    font-size: 11px;
+}
+
+.sign-in-customer a {
+    text-decoration: none;
+    color: #007185;
+}
+
+.foot-panel1 {
+    width: 1536px;
+    height: 19px;
+    padding: 15px 0px 15px 0px;
+    background-color: #37475a;
+    color: white;
+    font-size: 13px;
+    display: block;
+    text-align: center;
+    line-height: 19px;
+
+}
+
+/**panel-2*/
+
+.foot-panel2 {
+
+    height: 330px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin: 29px;
+}
+
+ul a {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+    color: #dddddd;
+    text-align: left;
+}
+
+ul p {
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+/*panel-3*/
+
+.foot-mainpanel {
+    height: 100px;
+    line-height: 20px;
+    color: white;
+    font-size: 0.8rem;
+    background-color: #232f3e;
+    border-top: 0.5px solid #e1e1e1;
+    text-align: center;
+}
+
+.pages {
+    padding-top: 20px;
+
+}
+
+.copyright {
+    padding-top: 10px;
+}
